@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url(http://weloveiconfonts.com/api/?family=brandico);
 
 /* brandico */
@@ -125,6 +125,16 @@ h1 {
     }
 }
 
+.carru {
+    
+    padding-left: 127px;
+    padding-right: 127px;
+}
+
+.listaP {
+    padding-left: 500px;
+    
+}
 
 /**/
 .galeriaGrid{
@@ -161,7 +171,11 @@ h1 {
 /*responsive*/
 @media screen and (max-width: 480px){
 
-    video {
+    .carru {
+        padding: 0px;
+    }
+
+    iframe {
         width: 100%;
     }
 
@@ -208,7 +222,11 @@ h1 {
 }
 
 @media screen and (max-width: 768px){
-    video {
+    .carru {
+        padding: 0px;
+    }
+
+    iframe {
         width: 100%;
     }
 
