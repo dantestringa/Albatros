@@ -18,7 +18,8 @@ $galeriaGrid: 8px;
 
 ul.social-buttons { 
     text-align: start;
-    margin-top: 0px;;
+    margin-top: 0px;
+    margin-left: 0px;
         li {
         display: inline-block;
         margin: 0 10px;
@@ -130,12 +131,16 @@ h1 {
     }
 }
 
-
+.up {
+    margin-left: 96%;
+}
 
 .listaP {
     padding-left: 500px;
     
 }
+
+
 
 /**/
 .galeriaGrid{
@@ -170,6 +175,41 @@ h1 {
 
 
 /*responsive*/
+
+
+    
+
+@media screen and (max-width: 768px){
+    .carrusel {
+        height: 450px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+
+    .navbar {
+        height: 100%;
+    }
+
+    .navbar-toggler {
+        text-align: right;
+    }
+
+    .list-group-item {
+        width: 100%;
+    }
+
+    .post-content img {
+        width: 100%;
+    }
+
+    .up {
+        margin-left: 93%;
+    }
+}
+
 @media screen and (max-width: 480px){
 
     .carrusel {
@@ -221,35 +261,23 @@ h1 {
           width: $logoResponsive;
           height: ($logoResponsive)-120px;
       }
-}
 
-    .enviar {
-        margin-bottom: 30px;
+      .up {
+        margin-left: 83%;
     }
 
-@media screen and (max-width: 768px){
-    .carrusel {
-        height: 450px;
+    h1 {
+        margin: 0px;
+        margin-bottom: 40px;
+        text-align: center;
     }
 
-    iframe {
-        width: 100%;
+    .precio {
+        margin-bottom: 35px;
     }
 
-
-    .navbar {
-        height: 100%;
-    }
-
-    .navbar-toggler {
-        text-align: right;
-    }
-
-    .list-group-item {
-        width: 100%;
-    }
-
-    .post-content img {
-        width: 100%;
+    .listaP {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
