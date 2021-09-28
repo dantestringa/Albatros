@@ -5,10 +5,6 @@
 [class*="brandico-"]:before {
   font-family: 'brandico', sans-serif; }
 
-/*ul.social-buttons {
-  text-align: center;
-  margin-top: 50px;
-}*/
 ul.social-buttons {
   text-align: start;
   margin-top: 0px;
@@ -39,10 +35,6 @@ html {
 .carrusel {
   height: 640px; }
 
-.grad {
-  background-image: linear-gradient(#150578, #449DD1);
-  color: white; }
-
 header {
   font-size: 23px; }
 
@@ -51,10 +43,6 @@ footer {
 
 .gradNegro {
   background-image: linear-gradient(#1A1A1B, #1A1A1B);
-  color: white; }
-
-.grad2 {
-  background-image: linear-gradient(#449DD1, #150578);
   color: white; }
 
 h1 {
@@ -73,9 +61,6 @@ h1 {
   .imagenesFlex iframe {
     width: 735px;
     height: 340px; }
-
-.fotoFondo {
-  background-image: url(https://imgur.com/2AuXBIq); }
 
 .negrita {
   font-weight: bold; }
